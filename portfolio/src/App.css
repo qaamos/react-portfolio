@@ -37,36 +37,82 @@
   }
 }
 
+.navigation-sub {
+  width: 100%;
+  text-align: center;
+}
 
-ul {
+.navigation-sub ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  overflow: auto;
+  background-color: #0033cc;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
+  text-align: center;
 }
 
-li {
-  float: left;
-
+.navigation-sub li {
+  display: inline-block;
+  text-align: center;
 }
 
-li a {
-  display: block;
+.navigation-sub li a {
+
+  float:left;
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 100px;
   text-decoration: none;
+
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+.navigation-sub li:hover {
+  background-color: #000099;
 }
 
-li a:active {
-  background-color: #4CAF50;
+.navigation-sub li:active {
+  background-color: #000099;
+
+}
+
+body {
+  padding-top:50px;
+}
+
+#cvkuva {
+  border-radius: 50%;
+  max-width: 20%;
+  height: auto;
+  position:relative;
+  left: -10%;
+}
+
+#title {
+  float:center;
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 50px;
+  text-decoration: none;
+  position:relative;
+  top:50%;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 }
