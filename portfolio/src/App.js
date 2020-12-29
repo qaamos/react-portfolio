@@ -16,8 +16,8 @@ function App() {
         <div className="navigation-sub">
         <div id="title">Aamos Riihinen</div>
         <ul>
-          <li> <Link to="/" className="item">Info</Link> </li>
-          <li> <Link to="/about" className="item">About</Link> </li>
+          <li> <Link to="/" className="item">Welcome</Link> </li>
+          <li> <Link to="/about" className="item">About me</Link> </li>
         </ul>
 
         </div>
