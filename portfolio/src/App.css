@@ -42,7 +42,7 @@
   margin: 0;
   padding: 0;
   overflow: auto;
-  background-color: #0015c7;
+  background-color: #3282b8;
   position: fixed;
   top: 0;
   left: 0;
@@ -75,7 +75,7 @@
 }
 
 .navigation-sub li:hover {
-  background-color: #000099;
+  background-color: #0f4c75;
 }
 
 .navigation-sub li:active {
@@ -114,7 +114,7 @@ body {
   position:absolute;
   left: 55%;
   top: 200%;
-  background-color: #0015c7;
+  background-color: #0f4c75;
   color: white;
   padding: 50px;
   border-radius: 25px;
@@ -124,7 +124,7 @@ body {
   max-width: 50%;
   position: relative;
   left: 20%;
-  background-color: #0015c7;
+  background-color: #0f4c75;
   color: white;
   padding: 30px;
   border-radius: 25px;
@@ -166,7 +166,7 @@ body {
 
 body {
   position:relative;
-  background-color: #272b30;
+  background-color: #1b262c;
   text-decoration-color: #ffffff;
   color: white;
 }
