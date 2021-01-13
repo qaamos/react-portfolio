@@ -37,7 +37,10 @@ function About(props) {
       <div class="section">
       <h2>Work experience</h2>
       <div class="textbox">
-      2017-2018<br></br>Laboratory Assistant at University of
+      2020<br></br>Postal delivery worker at Posti Palvelut Oy
+      <br></br><br></br>
+
+      2017-2018<br></br>Laboratory assistant at University of
       Jyväskylä (civilian service)<br></br><br></br>
 
       2013<br></br>Work experience training at computer store
