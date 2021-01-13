@@ -61,7 +61,7 @@ function About(props) {
       I'm familiar with full stack web development using Node.js and React.
       I can make graphical user interfaces (Qt). I'm familiar with GNU/Linux and
       all major operating systems. I can use Git version control in individual
-      and multiple-user project arrangements.
+      and multiple-user project arrangements. I know SQL.
       <br></br><br></br>
       Some of my interests include: technology, cars, video games, investing.
 
