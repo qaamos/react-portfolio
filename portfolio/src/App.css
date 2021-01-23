@@ -88,14 +88,16 @@ body {
   height:100%;
 }
 
-#cvkuva {
-  border-radius: 50%;
-  max-width: 25%;
-  height: auto;
-  position:absolute;
-  left: 15%;
-  top: 120%;
+#navbar {
+  background-color: #3282b8;
 }
+
+#cvkuva {
+  max-width: 320px;
+  border-radius: 50%;
+  position:relative;
+}
+
 
 #title {
   position:absolute;
@@ -108,16 +110,17 @@ body {
   left: 0;
 }
 
+
 #infobox {
-  max-width: 25%;
-  height: auto;
-  position:absolute;
-  left: 55%;
-  top: 200%;
   background-color: #0f4c75;
   color: white;
-  padding: 50px;
   border-radius: 25px;
+  height:auto;
+  padding:50px;
+  width:50%;
+  left:15%;
+  top:5%;
+  position:relative;
 }
 
 .textbox {
@@ -162,6 +165,7 @@ body {
   #aboutsections {
     display:block;
   }
+
 }
 
 body {
