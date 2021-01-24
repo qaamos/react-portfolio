@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import About from './About.js';
 import Info from './Info.js';
 import 'fontsource-roboto';
@@ -13,7 +13,7 @@ import Button from '@material-ui/core/Button';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="App">
     <Container>
 
@@ -44,7 +44,7 @@ function App() {
 
     </Container>
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

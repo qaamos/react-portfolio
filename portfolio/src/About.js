@@ -59,7 +59,7 @@ function About(props) {
                   </Box>
                   <Typography variant="body1">
                     I graduated upper secondary school from Jyväskylän normaalikoulun lukio in 2017.
-                    <br></br><br></br>I started my information technology studies in Tampere University (previously Tampere
+                    <br></br><br></br>I began my information technology studies at Tampere University (previously Tampere
                     University of Technology) in 2018. I'm currently working on my bachelor's degree, after which
                     I will move on to a master's degree.<br></br><br></br>
                     I'm majoring in software engineering and minoring in industrial management.
