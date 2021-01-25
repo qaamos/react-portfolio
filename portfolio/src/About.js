@@ -82,7 +82,7 @@ function About(props) {
                     <br></br><br></br>
 
                     2017-2018<br></br>Laboratory assistant at University of
-                    Jyväskylä (civilian service)<br></br><br></br>
+                    Jyväskylä, Faculty of Information Technology (civilian service)<br></br><br></br>
 
                     2013<br></br>Work experience training at computer store
                     Kampus Data (Multitronic)
