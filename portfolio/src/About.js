@@ -107,8 +107,8 @@ function About(props) {
                   </Box>
                   <Typography variant="body1">
                     I have proficient programming skills in Python, C++ and JavaScript.
-                    I'm familiar with full stack web development using Node.js and React.
-                    I can make graphical user interfaces (Qt). I'm familiar with GNU/Linux and
+                    I'm familiar with web development using HTML, CSS, Node.js and React.
+                    I can make graphical user interfaces (Qt and web frontend). I'm familiar with GNU/Linux and
                     all major operating systems. I can use Git version control in individual
                     and multiple-user project arrangements. I know SQL.
                     <br></br><br></br>

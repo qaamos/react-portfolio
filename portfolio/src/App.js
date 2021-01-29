@@ -22,11 +22,27 @@ function App() {
 
       <AppBar position="fixed" id="navbar">
         <Toolbar>
+
           <Box display='flex' flexGrow={1}>
             <Typography variant="h6">
-            Aamos Riihinen
+              Aamos Riihinen
             </Typography>
+            <Box pl={3}>
+              <Button className="menuButton" variant="contained"
+              style={{color:"white", backgroundColor:"#005DEF"}}
+              href="https://linkedin.com/in/aamos-riihinen/">
+                LinkedIn
+              </Button>
+            </Box>
+            <Box pl={3}>
+              <Button className="menuButton" variant="contained"
+              style={{color:"white", backgroundColor:"#005DEF"}}
+              href="https://github.com/qaamos">
+                Github
+              </Button>
+            </Box>
           </Box>
+
           <Box pr={3}>
             <Button className="menuButton" variant="contained"
             style={{color:"white", backgroundColor:"#005DEF"}}
