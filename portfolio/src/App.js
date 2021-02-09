@@ -9,7 +9,8 @@ import Typography from '@material-ui/core/Typography';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Button from '@material-ui/core/Button';
-
+import Hidden from '@material-ui/core/Hidden';
+import MainMenu from "./MainMenu";
 
 function App() {
   return (
@@ -21,41 +22,56 @@ function App() {
       <Route path="/about" component={About} />
 
       <AppBar position="fixed" id="navbar">
-        <Toolbar>
+        <Hidden xsDown>
+          <Toolbar>
 
-          <Box display='flex' flexGrow={1}>
+            <Box display='flex' flexGrow={1}>
+              <Typography variant="h6">
+                Aamos Riihinen
+              </Typography>
+              <Box pl={3}>
+                <Button className="menuButton" variant="contained"
+                style={{color:"white", backgroundColor:"#005DEF"}}
+                href="https://linkedin.com/in/aamos-riihinen/">
+                  LinkedIn
+                </Button>
+              </Box>
+              <Box pl={3}>
+                <Button className="menuButton" variant="contained"
+                style={{color:"white", backgroundColor:"#005DEF"}}
+                href="https://github.com/qaamos">
+                  Github
+                </Button>
+              </Box>
+            </Box>
+
+            <Box pr={3}>
+              <Button className="menuButton" variant="contained"
+              style={{color:"white", backgroundColor:"#005DEF"}}
+              component={Link} to="/">
+                Welcome
+              </Button>
+            </Box>
+            <Button className="menuButton" variant="contained"
+            style={{color:"white", backgroundColor:"#005DEF"}}
+            component={Link} to="/about">
+              About me
+            </Button>
+
+          </Toolbar>
+        </Hidden>
+
+        <Hidden smUp>
+          <Toolbar>
+            <Box display='flex' flexGrow={1}>
+              <MainMenu />
+            </Box>
             <Typography variant="h6">
               Aamos Riihinen
             </Typography>
-            <Box pl={3}>
-              <Button className="menuButton" variant="contained"
-              style={{color:"white", backgroundColor:"#005DEF"}}
-              href="https://linkedin.com/in/aamos-riihinen/">
-                LinkedIn
-              </Button>
-            </Box>
-            <Box pl={3}>
-              <Button className="menuButton" variant="contained"
-              style={{color:"white", backgroundColor:"#005DEF"}}
-              href="https://github.com/qaamos">
-                Github
-              </Button>
-            </Box>
-          </Box>
+          </Toolbar>
+        </Hidden>
 
-          <Box pr={3}>
-            <Button className="menuButton" variant="contained"
-            style={{color:"white", backgroundColor:"#005DEF"}}
-            component={Link} to="/">
-              Welcome
-            </Button>
-          </Box>
-          <Button className="menuButton" variant="contained"
-          style={{color:"white", backgroundColor:"#005DEF"}}
-          component={Link} to="/about">
-            About me
-          </Button>
-        </Toolbar>
       </AppBar>
 
     </Container>
