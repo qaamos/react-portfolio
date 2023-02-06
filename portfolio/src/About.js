@@ -58,11 +58,11 @@ function About(props) {
                     <Divider />
                   </Box>
                   <Typography variant="body1">
+                    I'm currently working towards a master's degree in information technology at Tampere University. I began my studies there in 2018.<br />
+                    I am majoring in software engineering and minoring in cyber security.<br /><br />
+                    I have a bachelor's degree in information technology, with a major 
+                    in software engineering and a minor in industrial management.<br></br><br></br>
                     I graduated upper secondary school from Jyväskylän normaalikoulun lukio in 2017.
-                    <br></br><br></br>I began my information technology studies at Tampere University (previously Tampere
-                    University of Technology) in 2018. I'm currently working on my bachelor's degree, after which
-                    I will move on to a master's degree.<br></br><br></br>
-                    I'm majoring in software engineering and minoring in industrial management.
                   </Typography>
                 </Box>
               </Paper>
@@ -78,19 +78,14 @@ function About(props) {
                     <Divider />
                   </Box>
                   <Typography variant="body1">
+                    2021 - 2022<br></br>Associate Cloud Developer at Basware Oy
+                    <br></br><br></br>
+
                     2020<br></br>Postal delivery worker at Posti Palvelut Oy
                     <br></br><br></br>
 
-                    2017-2018<br></br>Laboratory assistant at University of
+                    2017 - 2018<br></br>Laboratory assistant at University of
                     Jyväskylä, Faculty of Information Technology (civilian service)<br></br><br></br>
-
-                    2013<br></br>Work experience training at computer store
-                    Kampus Data (Multitronic)
-                    <br></br><br></br>
-
-                    2012<br></br>Work experience training at Jyväskylä Main Library
-                    <br></br><br></br>
-                    2011<br></br>Work experience training at pet store Faunatar
                   </Typography>
                 </Box>
               </Paper>
@@ -106,13 +101,13 @@ function About(props) {
                     <Divider />
                   </Box>
                   <Typography variant="body1">
-                    I have proficient programming skills in Python, C++ and JavaScript.
-                    I'm familiar with web development using HTML, CSS, Node.js and React.
-                    I can make graphical user interfaces (Qt and web frontend). I'm familiar with GNU/Linux and
-                    all major operating systems. I can use Git version control in individual
-                    and multiple-user project arrangements. I know SQL.
+                    I have experience developing full stack web applications and desktop applications for work, university and personal projects.
+                    I'm interested in all kinds of programming. I'm comfortable using and configuring Linux, working with Git version control and using SQL databases.<br />
+                    Some technologies and programming languages I'm familiar with:<br /><br />
+                    ASP.NET, React, Vue, Node, Django, Qt, C++, C#, Python, Haskell, JavaScript/HTML/CSS.
+
                     <br></br><br></br>
-                    Some of my interests include: technology, cars, video games, investing.
+                    Some of my interests include: technology, cars, video games, investing, movies, reading, archery, photography.
                   </Typography>
                 </Box>
               </Paper>
